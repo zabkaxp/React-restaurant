@@ -1,0 +1,40 @@
+.active {
+  font-weight: bold;
+}
+
+.notActive {
+  font-weight: 100;
+}
+.menuItem {
+  padding: 10px;
+  width: 250px;
+  text-align: center;
+}
+
+.menuItem:nth-child(odd) {
+  background-color: blanchedalmond;
+}
+
+.menuItem:nth-child(even) {
+  background-color: gainsboro;
+}
+
+.menuItem:hover {
+  cursor: pointer;
+}
+.menuItem:active {
+  font-size: 110%;
+}
+.menuItem:nth-child(even):hover {
+  background: linear-gradient(
+    rgba(240, 250, 251, 0.7),
+    rgba(103, 128, 136, 0.7)
+  );
+}
+
+.menuItem:nth-child(odd):hover {
+  background: linear-gradient(
+    rgba(240, 250, 251, 0.7),
+    rgba(216, 76, 141, 0.4)
+  );
+}
